@@ -1,0 +1,72 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+
+# ===============================
+# IDE
+# ===============================
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ===============================
+# Testing
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# AI / Agent Tooling (CRITICAL)
+# ===============================
+.agent/
+.agents/
+.claude/
+.kluster/
+.gemini/
+
+# ===============================
+# AI Memory / Vector DB
+# ===============================
+.qdrant/
+.memory/
+chroma_db/
+
+# ===============================
+# OS
+# ===============================
+Thumbs.db
+.DS_Store
+
+frontend-next/
+package-lock.json
+
+# ===============================
+# Frontend (React/Vite)
+# ===============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
